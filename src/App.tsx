@@ -1,16 +1,21 @@
 import React from 'react';
-import { Switch, Route } from 'react-router-dom';
+import { Switch, Route, BrowserRouter as Router } from 'react-router-dom';
+
 import TestPage from './routes/test-page';
-import TestComponent from './components/test-component';
+import Header from './components/Header';
+import GlobalStyle from './components/GlobalStyle';
 
 function App() {
   return (
-    <Switch>
-      <Route exact path="/">
-        <TestPage />
-        <TestComponent />
-      </Route>
-    </Switch>
+    <Router>
+      <Header />
+      <GlobalStyle />
+      <Switch>
+        <Route exact path="/">
+          <TestPage />
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 
