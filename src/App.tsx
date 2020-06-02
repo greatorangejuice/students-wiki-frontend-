@@ -1,7 +1,7 @@
-import React from "react";
-import { Switch, Route } from "react-router-dom";
-import TestPage from "./routes/test-page";
-import TestComponent from "./components/test-component";
+import React from 'react';
+import { Switch, Route } from 'react-router-dom';
+import TestPage from './routes/test-page';
+import TestComponent from './components/test-component';
 
 function App() {
   return (
