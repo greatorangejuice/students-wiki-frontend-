@@ -2,17 +2,10 @@ import styled from 'styled-components';
 
 import { NavLink } from 'react-router-dom';
 
-export const Auth = styled.div`
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-top: 60px;
-`;
-
 export const Container = styled.div`
   max-width: 1440px;
   margin: 0 auto;
+  margin-top: 60px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,57 +15,15 @@ export const Container = styled.div`
 
 export const Heading = styled.h1`
   font-family: 'Marmelad', sans-serif;
-  font-weight: normal;
   color: #ffee54;
+  font-weight: normal;
   font-size: 72px;
   line-height: 86px;
   margin-bottom: 30px;
 `;
 
-export const FormWrapper = styled.div`
+export const FormWrapper = styled.form`
   width: 578px;
-  display: flex;
-  flex-direction: column;
-`;
-
-export const OAuthWrapper = styled.ul`
-  display: flex;
-  margin-bottom: 20px;
-`;
-
-export const OAuth = styled.li`
-  list-style: none;
-
-  margin-right: 30px;
-  a {
-    position: relative;
-    display: flex;
-
-    width: 50px;
-    height: 50px;
-    position: relative;
-    align-items: center;
-    justify-content: center;
-    img {
-      position: relative;
-    }
-    &::before {
-      content: '';
-      width: 35px;
-      height: 35px;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%) rotate(45deg);
-      background: white;
-    }
-  }
-  &:last-child {
-    margin-right: 0;
-  }
-`;
-
-export const Form = styled.form`
   display: flex;
   flex-direction: column;
 `;

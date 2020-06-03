@@ -1,9 +1,14 @@
 import React from 'react';
-import { Switch, Route, BrowserRouter as Router } from 'react-router-dom';
+import { Switch, BrowserRouter as Router } from 'react-router-dom';
 
-import TestPage from 'routes/test-page';
-import SignIn from 'routes/SignIn';
-import SignUp from 'routes/SignUp';
+import Feedback from './pages/Feedback';
+import News from './pages/News';
+import SignIn from './pages/SignIn';
+import SignUp from './pages/SignUp';
+import Subjects from './pages/Subjects';
+import Teachers from './pages/Teachers';
+import AuthRoute from './routes/AuthRoute';
+import PublicRoute from './routes/PublicRoute';
 import Header from './components/Header';
 import GlobalStyle from './components/GlobalStyle';
 
@@ -13,15 +18,12 @@ function App() {
       <Header />
       <GlobalStyle />
       <Switch>
-        <Route exact path="/">
-          <TestPage />
-        </Route>
-        <Route exact path="/sign-in">
-          <SignIn />
-        </Route>
-        <Route exact path="/sign-up">
-          <SignUp />
-        </Route>
+        <AuthRoute exact path="/sign-in" Component={SignIn} />
+        <AuthRoute exact path="/sign-up" Component={SignUp} />
+        <PublicRoute exact path="/" Component={News} />
+        <PublicRoute exact path="/teachers" Component={Teachers} />
+        <PublicRoute exact path="/subjects" Component={Subjects} />
+        <PublicRoute exact path="/feedback" Component={Feedback} />
       </Switch>
     </Router>
   );

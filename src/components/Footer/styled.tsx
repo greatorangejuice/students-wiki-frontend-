@@ -23,15 +23,19 @@ export const Container = styled.div`
 export const Links = styled.div`
   color: #fff;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   flex-wrap: wrap;
-  max-width: 50%;
+  max-width: 40%;
 `;
 
 export const Link = styled.a`
   color: #fff;
-  min-width: 120px;
   text-decoration: none;
+  margin-right: 60px;
+
+  :nth-child(4n) {
+    margin-right: 0;
+  }
 `;
 
 export const Copyright = styled.div`
