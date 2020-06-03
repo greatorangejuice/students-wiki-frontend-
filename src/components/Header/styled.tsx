@@ -61,4 +61,8 @@ export const SignUp = styled.span``;
 
 export const SignIn = styled.div`
   display: flex;
+  align-items: center;
+  span {
+    margin-right: 5px;
+  }
 `;
