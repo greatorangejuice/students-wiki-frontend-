@@ -12,9 +12,9 @@
     "react-router-redux": "^4.0.8",
     "react-scripts": "3.4.0",
     "redux": "4.0.5",
+    "redux-logger": "3.0.6",
     "styled-components": "^5.1.1",
-    "typescript": "^3.9.3",
-    "redux-logger": "3.0.6"
+    "typescript": "^3.9.3"
   },
   "scripts": {
     "start": "react-scripts start",
