@@ -14,7 +14,7 @@ export const Container = styled.div`
 `;
 
 export const Heading = styled.h1`
-  font-family: 'Marmelad', sans-serif;
+  font-family: 'Marmelad', 'Roboto', sans-serif;
   font-weight: normal;
   color: #ffee54;
   font-size: 72px;

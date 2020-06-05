@@ -31,7 +31,7 @@ export const NewsHeader = styled.div`
 `;
 
 export const NewsTitle = styled.div`
-  font-family: 'Marmelad', sans-serif;
+  font-family: 'Marmelad', 'Roboto', sans-serif;
   font-size: 36px;
   color: #282828;
   display: flex;

@@ -4,7 +4,7 @@ export const Header = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-family: 'Marmelad', sans-serif;
+  font-family: 'Marmelad', 'Roboto', sans-serif;
   border-bottom: 2px solid grey;
   max-height: 110px;
   min-height: 110px;
@@ -40,7 +40,7 @@ export const Navbar = styled.nav`
 
 export const Ul = styled.ul`
   display: flex;
-  font-family: 'Marmelad', sans-serif;
+  font-family: 'Marmelad', 'Roboto', sans-serif;
   list-style: none;
   width: 100%;
   justify-content: space-between;

@@ -4,7 +4,7 @@ export const Footer = styled.footer`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-family: 'Marmelad', sans-serif;
+  font-family: 'Marmelad', 'Roboto', sans-serif;
   line-height: 50px;
   min-height: 110px;
   padding: 0 10px;
