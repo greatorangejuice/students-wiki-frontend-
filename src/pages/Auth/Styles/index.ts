@@ -14,11 +14,12 @@ export const Container = styled.div`
 `;
 
 export const Heading = styled.h1`
+<<<<<<< HEAD:src/pages/Signup/styled.ts
   font-family: 'Marmelad', 'Roboto', sans-serif;
   font-weight: normal;
+=======
+>>>>>>> e2bec89a61216bf6c10500547909aa432085b8e0:src/pages/Auth/Styles/index.ts
   color: #ffee54;
-  font-size: 72px;
-  line-height: 86px;
   margin-bottom: 30px;
 `;
 
@@ -34,8 +35,6 @@ export const OAuthWrapper = styled.ul`
 `;
 
 export const OAuth = styled.li`
-  list-style: none;
-
   margin-right: 30px;
   a {
     position: relative;
@@ -97,7 +96,6 @@ export const Input = styled.input`
   border: none;
   border-radius: none;
   padding: 15px 7px;
-  /* margin-bottom: 10px; */
   &::placeholder {
     color: #bdbdbd;
   }

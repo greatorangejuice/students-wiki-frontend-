@@ -4,7 +4,7 @@ import git from 'assets/git-logo.svg';
 import vk from 'assets/vk-logo.svg';
 import google from 'assets/google-logo.svg';
 
-import * as S from './styled';
+import * as S from '../Styles';
 
 const SignUp = () => (
   <S.Container>
