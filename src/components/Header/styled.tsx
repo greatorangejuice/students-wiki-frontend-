@@ -1,12 +1,11 @@
 import styled from 'styled-components';
 
-export const Header = styled.div`
+export const Header = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-family: 'Marmelad', sans-serif;
   border-bottom: 2px solid grey;
-
   max-height: 110px;
   min-height: 110px;
   padding: 0 10px;
