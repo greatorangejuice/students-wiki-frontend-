@@ -14,11 +14,7 @@ export const Container = styled.div`
 `;
 
 export const Heading = styled.h1`
-  font-family: 'Marmelad', sans-serif;
-  font-weight: normal;
   color: #ffee54;
-  font-size: 72px;
-  line-height: 86px;
   margin-bottom: 30px;
 `;
 
@@ -34,8 +30,6 @@ export const OAuthWrapper = styled.ul`
 `;
 
 export const OAuth = styled.li`
-  list-style: none;
-
   margin-right: 30px;
   a {
     position: relative;
@@ -97,7 +91,6 @@ export const Input = styled.input`
   border: none;
   border-radius: none;
   padding: 15px 7px;
-  /* margin-bottom: 10px; */
   &::placeholder {
     color: #bdbdbd;
   }

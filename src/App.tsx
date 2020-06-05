@@ -1,16 +1,16 @@
 import React from 'react';
 import { Switch, BrowserRouter as Router } from 'react-router-dom';
 
-import Feedback from './pages/Feedback';
-import News from './pages/News';
-import SignIn from './pages/SignIn';
-import SignUp from './pages/SignUp';
-import Subjects from './pages/Subjects';
-import Teachers from './pages/Teachers';
-import AuthRoute from './routes/AuthRoute';
-import PublicRoute from './routes/PublicRoute';
-import Header from './components/Header';
-import GlobalStyle from './components/GlobalStyle';
+import Feedback from 'pages/Feedback';
+import News from 'pages/News';
+import SignIn from 'pages/Auth/SignIn';
+import SignUp from 'pages/Auth/SignUp';
+import Subjects from 'pages/Subjects';
+import Teachers from 'pages/Teachers';
+import AuthRoute from 'routes/AuthRoute';
+import PublicRoute from 'routes/PublicRoute';
+import Header from 'components/Header';
+import GlobalStyle from 'assets/styles/GlobalStyles';
 
 function App() {
   return (
