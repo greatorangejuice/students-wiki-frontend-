@@ -31,6 +31,18 @@ ul, ol {
     max-width: 1440px;
     margin: 0 auto;
 }
+
+button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
 `;
 
 export default GlobalStyle;
