@@ -10,7 +10,7 @@ import Teachers from './pages/Teachers';
 import AuthRoute from './routes/AuthRoute';
 import PublicRoute from './routes/PublicRoute';
 import Header from './components/Header';
-import GlobalStyle from './components/GlobalStyle';
+import GlobalStyle from './assets/styles/GlobalStyles';
 
 function App() {
   return (
