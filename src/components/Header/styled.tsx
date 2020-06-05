@@ -41,7 +41,6 @@ export const Navbar = styled.nav`
 export const Ul = styled.ul`
   display: flex;
   font-family: 'Marmelad', sans-serif;
-  list-style: none;
   width: 100%;
   justify-content: space-between;
 `;
