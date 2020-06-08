@@ -5,7 +5,7 @@ import * as S from './styled';
 const Footer = () => {
   return (
     <S.Footer>
-      <S.Container>
+      <S.Container className="container">
         <S.Links>
           <S.Link href="/">Лента</S.Link>
           <S.Link href="/teachers">Преподаватели</S.Link>

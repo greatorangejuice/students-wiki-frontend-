@@ -15,8 +15,7 @@ export const Container = styled.div`
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  max-width: 1440px;
-  margin: 0 auto;
+  padding: 80px 0 100px;
   width: 100%;
 `;
 

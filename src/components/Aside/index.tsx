@@ -8,7 +8,7 @@ import * as S from './styled';
 
 const Aside = ({ value, linkList, add }: PropsType) => {
   return (
-    <S.Aside>
+    <S.AsideItem>
       <S.Heading>{value}</S.Heading>
       <S.LinksWrapperScroll>
         <S.LinksWrapper>
@@ -20,7 +20,7 @@ const Aside = ({ value, linkList, add }: PropsType) => {
         </S.LinksWrapper>
       </S.LinksWrapperScroll>
       <AddButton value={`${add}`} />
-    </S.Aside>
+    </S.AsideItem>
   );
 };
 

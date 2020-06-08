@@ -8,15 +8,12 @@ export const Header = styled.header`
   border-bottom: 2px solid grey;
   max-height: 110px;
   min-height: 110px;
-  padding: 0 10px;
 `;
 
-export const Container = styled.div`
+export const Nav = styled.nav`
   color: #fff;
   display: flex;
   justify-content: space-between;
-  max-width: 1440px;
-  margin: 0 auto;
   width: 100%;
 `;
 

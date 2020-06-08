@@ -1,9 +1,10 @@
 import styled from 'styled-components';
 
-export const Aside = styled.aside`
+export const AsideItem = styled.div`
   width: 464px;
   background: #f7f9ff;
   padding: 53px 32px 53px 67px;
+  margin-bottom: 40px;
 `;
 
 export const Heading = styled.h3`

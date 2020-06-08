@@ -18,9 +18,7 @@ const PublicRoute = ({
     render={(props) => (
       <>
         <S.Main>
-          <S.Container>
-            <Component {...props} />
-          </S.Container>
+          <Component {...props} />
         </S.Main>
         <Footer />
       </>

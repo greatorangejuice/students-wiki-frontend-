@@ -7,7 +7,7 @@ import * as S from './styled';
 const Header = () => {
   return (
     <S.Header>
-      <S.Container>
+      <S.Nav className="container">
         <S.Title>
           Students helper&nbsp;
           <S.SpanBsuir>BSUIR</S.SpanBsuir>
@@ -28,7 +28,7 @@ const Header = () => {
             <LogIn />
           </S.SignIn>
         </S.UserPanel>
-      </S.Container>
+      </S.Nav>
     </S.Header>
   );
 };
