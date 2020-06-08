@@ -3,61 +3,16 @@ import React from 'react';
 import Welcome from 'components/Welcome';
 import Aside from 'components/Aside';
 
-import { TeacherList, SubjectList } from 'assets/mock';
+import { TeacherList, SubjectList, newsList } from 'assets/mock';
 
-import { ReactComponent as SvgComments } from 'assets/comment.svg';
-import { ReactComponent as SvgLikes } from 'assets/like.svg';
-import { ReactComponent as SvgFavorites } from 'assets/favorite.svg';
+import { ReactComponent as SvgComments } from 'assets/images/comment.svg';
+import { ReactComponent as SvgLikes } from 'assets/images/like.svg';
+import { ReactComponent as SvgFavorites } from 'assets/images/favorite.svg';
+
 import * as S from './styled';
-
-type NewsItem = {
-  id: number;
-  title?: string;
-  comments?: number;
-  likes?: number;
-  favorites?: number;
-  text: string;
-  published?: string;
-};
 
 const News = () => {
   // TODO: WIP replace on real news in future
-  const news: NewsItem[] = [
-    {
-      id: 0,
-      title: 'Заголовок лайфхака',
-      comments: 35,
-      likes: 65,
-      favorites: 13,
-      text: `Давно выяснено, что при оценке дизайна и композиции читаемый текст
-      мешает сосредоточиться. Lorem Ipsum используют потому, что тот
-      обеспечивает более или менее стандартное заполнение шаблона, а
-      также реальное распределение букв и пробелов в абзацах, которое не
-      получается при простой дубликации "Здесь ваш текст.. Здесь ваш
-      текст.. Здесь ваш текст.." Многие программы электронной вёрстки и
-      редакторы HTML используют Lorem Ipsum в качестве текста по
-      умолчанию, так что поиск по ключевым словам "lorem ipsum" сразу
-      показывает, как много веб-страниц всё ещё дожидаются своего
-      настоящего рождения. За прошедшие годы текст Lorem Ipsum получил
-      много версий. Некоторые версии появились по ошибке, некоторые -
-      намеренно (например, юмористические варианты).`,
-      published: '12.12.2019',
-    },
-    {
-      id: 1,
-      title: 'Второй заголовок лайфхака',
-      comments: 10,
-      likes: 21,
-      favorites: 7,
-      text: `Давно выяснено, что при оценке дизайна и композиции читаемый текст
-      мешает сосредоточиться. Lorem Ipsum используют потому, что тот
-      обеспечивает более или менее стандартное заполнение шаблона, а
-      также реальное распределение букв и пробелов в абзацах, которое не
-      получается при простой дубликации "Здесь ваш текст.. Здесь ваш
-      текст.. Здесь ваш текст.."`,
-      published: '11.12.2019',
-    },
-  ];
 
   return (
     <>
@@ -76,7 +31,7 @@ const News = () => {
         />
       </section>
       <S.Ul>
-        {news.map((el) => (
+        {newsList.map((el) => (
           <S.Li key={el.id}>
             <S.NewsItem>
               <S.NewsHeader>
@@ -105,28 +60,4 @@ const News = () => {
     </>
   );
 };
-
-// const News = () => {
-//   return (
-//     <>
-//       <Welcome />
-//       <section style={{ background: 'white' }}>
-//         <div className="container">
-//           <Aside
-//             value={SubjectList.value}
-//             linkList={SubjectList.linkList}
-//             add="добавить предмет"
-//           />
-
-//           <Aside
-//             value={TeacherList.value}
-//             linkList={TeacherList.linkList}
-//             add="добавить преподавателя"
-//           />
-//         </div>
-//       </section>
-//     </>
-//   );
-// };
-
 export default News;

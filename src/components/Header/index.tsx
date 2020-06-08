@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { ReactComponent as LogIn } from 'assets/log-in.svg';
-import { ReactComponent as Loupe } from 'assets/loupe.svg';
+import { ReactComponent as LogIn } from 'assets/images/log-in.svg';
+import { ReactComponent as Loupe } from 'assets/images/loupe.svg';
 import * as S from './styled';
 
 const Header = () => {

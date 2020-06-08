@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { ReactComponent as PlusIcon } from 'assets/plus.svg';
+import { ReactComponent as PlusIcon } from 'assets/images/plus.svg';
 
 import * as S from './styled';
 

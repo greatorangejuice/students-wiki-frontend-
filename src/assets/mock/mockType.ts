@@ -9,3 +9,13 @@ export type PropsType = {
   linkList: LinkItem[];
   add?: string;
 };
+
+export type NewsItem = {
+  id: number;
+  title?: string;
+  comments?: number;
+  likes?: number;
+  favorites?: number;
+  text: string;
+  published?: string;
+};

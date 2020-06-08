@@ -1,8 +1,8 @@
 import React from 'react';
 
-import git from 'assets/git-logo.svg';
-import vk from 'assets/vk-logo.svg';
-import google from 'assets/google-logo.svg';
+import git from 'assets/images/git-logo.svg';
+import vk from 'assets/images/vk-logo.svg';
+import google from 'assets/images/google-logo.svg';
 
 import * as S from '../Styles';
 

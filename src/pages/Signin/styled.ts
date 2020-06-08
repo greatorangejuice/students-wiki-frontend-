@@ -79,7 +79,6 @@ export const Submit = styled.button`
 export const Link = styled(NavLink)`
   font-family: 'Roboto', Arial, sans-serif;
   color: rgba(255, 255, 255, 0.62);
-  text-decoration: none;
 `;
 
 export const LinkSpan = styled.span`

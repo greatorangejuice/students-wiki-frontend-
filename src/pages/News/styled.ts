@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 import Button from 'components/Button';
-import unicorn from 'assets/unicorn.svg';
+import unicorn from 'assets/images/unicorn.svg';
 
 export const Ul = styled.ul`
   padding-bottom: 30px;
