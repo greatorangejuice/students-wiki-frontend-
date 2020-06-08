@@ -23,7 +23,7 @@ const Header = () => {
               <NavLink to="/teachers">Преподаватели</NavLink>
             </S.Li>
             <S.Li>
-              <NavLink to="/sybjects">Предметы</NavLink>
+              <NavLink to="/subjects">Предметы</NavLink>
             </S.Li>
             <S.Li>
               <NavLink to="/feedback">Обратная связь</NavLink>
