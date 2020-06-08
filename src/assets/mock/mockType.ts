@@ -19,3 +19,10 @@ export type NewsItem = {
   text: string;
   published?: string;
 };
+
+export type TeachersListType = {
+  id: number;
+  name: string;
+  department: string;
+  comments: number;
+};

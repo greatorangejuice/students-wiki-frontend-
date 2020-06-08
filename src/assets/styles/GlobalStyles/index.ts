@@ -20,6 +20,16 @@ h1 {
     font-size: 72px;
     line-height: 86px;
 }
+h2 {
+    font-family: 'Marmelad', sans-serif;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 43px;
+    margin-bottom: 50px;
+
+
+color: #282828;
+}
 
 ul, ol {
     li {
@@ -37,11 +47,36 @@ button {
     border: none;
     padding: 0;
     cursor: pointer;
+    &:focus {
+        outline: none;
+    }
+    &.primary {
+        color: white;
+        padding: 16px 70px;
+        background: #5474AF;
+    }
+    &.lime {
+        padding: 16px 70px;
+        background: #ffee54;
+        color: #5474af;
+    }
 }
 
 a {
     color: #000;
     text-decoration: none;
+}
+
+input[type="text"],
+input[type="search"],
+input[type="password"],
+input[type="email"] {
+    box-shadow: none;
+    border: none;
+    border-radius: none;
+    &:focus {
+        outline: none;
+    }
 }
 `;
 

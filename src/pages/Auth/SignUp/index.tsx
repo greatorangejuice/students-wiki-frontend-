@@ -45,7 +45,9 @@ const SignUp = () => (
           <S.Input type="password" placeholder="Введите свой email" />
         </S.InputWrapper>
         <S.SubmitAndRedirect>
-          <S.Submit type="submit">Войти</S.Submit>
+          <S.Submit type="submit" className="lime">
+            Войти
+          </S.Submit>
           <S.Link to="/sign-in">
             У вас есть аккаунт? <S.LinkSpan>Войдите в аккаунт</S.LinkSpan>
           </S.Link>

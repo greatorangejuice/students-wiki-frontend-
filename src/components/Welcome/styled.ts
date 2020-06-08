@@ -22,7 +22,7 @@ export const BreadCrumbsItem = styled.li`
   font-family: 'Marmelad', Arial, sans-serif;
   margin-right: 36px;
   position: relative;
-  color: ${({ active }: props) => (active ? 'yellow' : '#E2E2E2')};
+  color: ${({ active }: props) => (active ? '#FFEE54' : '#E2E2E2')};
   opacity: ${({ active }: props) => (active ? '1' : 0.7)};
   &::before {
     content: '';

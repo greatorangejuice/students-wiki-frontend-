@@ -14,11 +14,8 @@ export const Container = styled.div`
 `;
 
 export const Heading = styled.h1`
-<<<<<<< HEAD:src/pages/Signup/styled.ts
   font-family: 'Marmelad', 'Roboto', sans-serif;
   font-weight: normal;
-=======
->>>>>>> e2bec89a61216bf6c10500547909aa432085b8e0:src/pages/Auth/Styles/index.ts
   color: #ffee54;
   margin-bottom: 30px;
 `;
@@ -92,9 +89,6 @@ export const InputBottomHelper = styled.span`
 `;
 
 export const Input = styled.input`
-  box-shadow: none;
-  border: none;
-  border-radius: none;
   padding: 15px 7px;
   &::placeholder {
     color: #bdbdbd;
@@ -109,11 +103,6 @@ export const SubmitAndRedirect = styled.div`
 
 export const Submit = styled.button`
   font-family: 'Roboto', Arial, sans-serif;
-  width: 190px;
-  padding: 16px 0;
-  border: none;
-  background: #ffee54;
-  color: #5474af;
 `;
 
 export const Link = styled(NavLink)`
