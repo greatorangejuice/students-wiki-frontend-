@@ -6,10 +6,12 @@ export const SortWrapper = styled.div`
   align-items: center;
   justify-content: space-between;
   max-width: 875px;
+
   span {
     color: #5474af;
     opacity: 0.9;
     position: relative;
+
     + svg {
       position: absolute;
       top: 70%;
