@@ -8,6 +8,12 @@ export const Header = styled.header`
   border-bottom: 2px solid grey;
   max-height: 110px;
   min-height: 110px;
+  a {
+    color: white;
+    &.active {
+      color: #ffee54;
+    }
+  }
 `;
 
 export const Nav = styled.nav`
@@ -56,9 +62,11 @@ export const UserPanel = styled.div`
 export const SignUp = styled.span``;
 
 export const SignIn = styled.div`
-  display: flex;
-  align-items: center;
-  span {
-    margin-right: 5px;
+  a {
+    display: flex;
+    align-items: center;
+    span {
+      margin-right: 5px;
+    }
   }
 `;

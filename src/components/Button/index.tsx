@@ -4,7 +4,7 @@ import StyledButton from './styled';
 
 export interface Props {
   className?: string;
-  children: string;
+  children?: string;
   rest?: object;
 }
 

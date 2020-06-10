@@ -4,12 +4,21 @@ import * as S from './styled';
 
 // * AFTER HEADER SECTION
 
-const breadCrumbs = [
-  { id: 1, value: 'Главная', active: '' },
-  { id: 2, value: 'Лента', active: 'active' },
-];
+interface IBreadCrumbs {
+  breadCrumbs: {
+    id: number;
+    value: string;
+    active: string;
+  }[];
+}
 
-const Welcome = () => {
+const Welcome: React.FC<IBreadCrumbs> = ({ breadCrumbs }) => {
+  const [heading, setHeading] = React.useState('');
+  React.useEffect(() => {
+    const findLastElm = breadCrumbs[breadCrumbs.length - 1].value;
+    setHeading(findLastElm);
+  }, [breadCrumbs, heading]);
+
   return (
     <S.Welcome>
       <S.Container className="container">
@@ -20,7 +29,7 @@ const Welcome = () => {
             </S.BreadCrumbsItem>
           ))}
         </S.BreadCrumbsList>
-        <h1>Лента</h1>
+        <h1>{heading}</h1>
       </S.Container>
     </S.Welcome>
   );

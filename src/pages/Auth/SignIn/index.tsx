@@ -16,7 +16,9 @@ const SignIn = () => (
         <S.InputBottomHelper>Забыли пароль?</S.InputBottomHelper>
       </S.InputWrapper>
       <S.SubmitAndRedirect>
-        <S.Submit type="submit">Войти</S.Submit>
+        <S.Submit type="submit" className="lime">
+          Войти
+        </S.Submit>
         <S.Link to="/sign-up">
           Нет аккаунта? <S.LinkSpan>Создайте аккаунт</S.LinkSpan>
         </S.Link>

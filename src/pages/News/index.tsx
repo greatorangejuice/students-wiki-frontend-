@@ -9,10 +9,14 @@ import { TeacherList, SubjectList } from 'assets/mock';
 
 import * as S from './styled';
 
+const breadCrumbs = [
+  { id: 1, value: 'Главная', active: '' },
+  { id: 2, value: 'Лента', active: 'active' },
+];
 const News = () => {
   return (
     <>
-      <Welcome />
+      <Welcome breadCrumbs={breadCrumbs} />
       <S.NewsSection>
         <S.Container className="container">
           <S.Article>
