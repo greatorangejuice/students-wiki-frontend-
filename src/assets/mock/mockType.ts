@@ -26,3 +26,10 @@ export type TeachersListType = {
   department: string;
   comments: number;
 };
+
+export type SubjectsListType = {
+  id: number;
+  link: string;
+  departmentName: string;
+  subjectName: string;
+};

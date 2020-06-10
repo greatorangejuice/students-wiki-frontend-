@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const TeachersSection = styled.section`
+export const HomeSection = styled.section`
   background: white;
 `;
 

@@ -9,6 +9,8 @@ import AddButton from 'components/AddButton';
 
 import { TeacherList, SubjectList } from 'assets/mock';
 
+import { CategorySearchContainer } from 'components/CategorySearch/styled';
+
 import * as S from './styled';
 
 const breadCrumbs = [
@@ -21,10 +23,10 @@ const Teachers = () => {
     <>
       <Welcome breadCrumbs={breadCrumbs} />
       <S.TeachersSection>
-        <S.CategorySearchContainer className="container">
+        <CategorySearchContainer className="container">
           <CategorySearch />
-          <SortBy />
-        </S.CategorySearchContainer>
+          <SortBy value="добавить преподавателя" />
+        </CategorySearchContainer>
         <S.Container className="container">
           <S.Article>
             <h2>Факультет компьютерного проектирования</h2>

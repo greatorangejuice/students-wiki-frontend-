@@ -25,3 +25,9 @@ export const Input = styled.input`
     color: #bdbdbd;
   }
 `;
+
+export const CategorySearchContainer = styled.div`
+  padding: 130px 0 100px;
+  display: flex;
+  flex-direction: column;
+`;
