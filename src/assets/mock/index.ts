@@ -1,11 +1,11 @@
-export { props as TeacherList } from './TeacherList';
-export { props as SubjectList } from './SubjectList';
+export { props as TeacherList } from './asideMockTeacherList';
+export { props as SubjectList } from './asideMockSubjectList';
 export type {
-  PropsType,
+  AsideSubjectListType,
   LinkItem,
-  TeachersListType,
-  SubjectsListType,
+  PageSubjectsListType,
+  PageTeachersListType,
 } from './mockType';
-export { news as newsList } from './newsList';
-export { default as teachersList } from './mockTeachersList';
-export { default as subjectsList } from './mockSubjectsList';
+export { news as newsList } from './pageMockNewsList';
+export { default as teachersList } from './pageMockTeachersList';
+export { default as subjectsList } from './pageMockSubjectsList';

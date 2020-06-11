@@ -1,6 +1,6 @@
-import { SubjectsListType } from './mockType';
+import { PageSubjectsListType } from './mockType';
 
-const mockSubjectsList: SubjectsListType[] = [
+const mockSubjectsList: PageSubjectsListType[] = [
   {
     id: 1,
     link: '/',

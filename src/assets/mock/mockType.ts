@@ -4,7 +4,7 @@ export type LinkItem = {
   value: string;
 };
 
-export type PropsType = {
+export type AsideSubjectListType = {
   value: string;
   linkList: LinkItem[];
   add?: string;
@@ -20,14 +20,14 @@ export type NewsItem = {
   published?: string;
 };
 
-export type TeachersListType = {
+export type PageTeachersListType = {
   id: number;
   name: string;
   department: string;
   comments: number;
 };
 
-export type SubjectsListType = {
+export type PageSubjectsListType = {
   id: number;
   link: string;
   departmentName: string;
