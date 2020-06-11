@@ -9,6 +9,7 @@ import SignUp from 'pages/Auth/SignUp';
 
 import Subjects from 'pages/Subjects';
 import Teachers from 'pages/Teachers';
+import Teacher from 'pages/Teacher';
 import AuthRoute from 'routes/AuthRoute';
 import PublicRoute from 'routes/PublicRoute';
 import Header from 'components/Header';
@@ -24,6 +25,7 @@ function App() {
         <AuthRoute exact path="/sign-up" Component={SignUp} />
         <PublicRoute exact path="/" Component={News} />
         <PublicRoute exact path="/teachers" Component={Teachers} />
+        <PublicRoute exact path="/teacher" Component={Teacher} />
         <PublicRoute exact path="/subjects" Component={Subjects} />
         <PublicRoute exact path="/feedback" Component={Feedback} />
       </Switch>

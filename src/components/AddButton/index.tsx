@@ -6,11 +6,12 @@ import * as S from './styled';
 
 type PropsValue = {
   value: string;
+  className?: string;
 };
 
 const AddButton = (props: PropsValue) => {
   return (
-    <S.Button>
+    <S.Button className={props.className}>
       <S.PlusIcon>
         <PlusIcon />
       </S.PlusIcon>

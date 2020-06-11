@@ -25,4 +25,14 @@ export type TeachersListType = {
   name: string;
   department: string;
   comments: number;
+  discipline?: string[];
+  rating?: number;
+};
+
+export type CommentsListType = {
+  id: number;
+  writer: string;
+  date: string;
+  text: string;
+  likes: number;
 };
