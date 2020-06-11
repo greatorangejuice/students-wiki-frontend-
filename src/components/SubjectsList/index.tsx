@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { subjectsList } from 'assets/mock';
+import { MockSubjectsList } from 'assets/mock';
 
 import * as S from './styled';
 
@@ -8,7 +8,7 @@ const SubjectsList = () => {
   return (
     <S.SubjectListWrapper>
       <S.SubjectList>
-        {subjectsList.map((subject) => (
+        {MockSubjectsList.map((subject) => (
           <S.SubjectListItem key={subject.id}>
             <S.TeacherListItemLink href={subject.link}>
               {subject.departmentName}

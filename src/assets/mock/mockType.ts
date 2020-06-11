@@ -1,4 +1,4 @@
-export type LinkItem = {
+export type LinkItemType = {
   id: number;
   link: string;
   value: string;
@@ -6,7 +6,7 @@ export type LinkItem = {
 
 export type AsideSubjectListType = {
   value: string;
-  linkList: LinkItem[];
+  linkList: LinkItemType[];
   add?: string;
 };
 

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { newsList } from 'assets/mock';
+import { NewsListType } from 'assets/mock';
 
 import { ReactComponent as SvgComments } from 'assets/images/comment.svg';
 import { ReactComponent as SvgLikes } from 'assets/images/like.svg';
@@ -11,7 +11,7 @@ import * as S from './styled';
 const NewsList = () => {
   return (
     <S.Ul>
-      {newsList.map((el) => (
+      {NewsListType.map((el) => (
         <S.Li key={el.id}>
           <S.NewsItem>
             <S.NewsHeader>
