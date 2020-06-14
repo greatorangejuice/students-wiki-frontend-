@@ -27,7 +27,7 @@ const Teachers = () => {
         </S.CategorySearchContainer>
         <S.Container className="container">
           <S.Article>
-            <h2>Факультет компьютерного проектирования</h2>
+            <S.Title>Факультет компьютерного проектирования</S.Title>
             <TeachersList />
             <AddButton value="Показать больше" />
           </S.Article>

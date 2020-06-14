@@ -25,10 +25,7 @@ h2 {
     font-weight: normal;
     font-size: 36px;
     line-height: 43px;
-    margin-bottom: 50px;
-
-
-color: #282828;
+    color: #282828;
 }
 
 ul, ol {
