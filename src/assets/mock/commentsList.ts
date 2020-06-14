@@ -13,6 +13,15 @@ const CommentList: CommentsListType[] = [
     текст.." Многие программы электронной вёрстки и редакторы HTML
     используют Lorem Ipsum.`,
     likes: 35,
+    replies: [
+      {
+        id: 203,
+        date: '12.12.2019 в 12.34',
+        writer: 'Программер',
+        text: 'Хороший комментарий,я согласен.',
+        likes: 3,
+      },
+    ],
   },
   {
     id: 2,

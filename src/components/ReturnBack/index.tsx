@@ -4,11 +4,13 @@ import * as S from './styled';
 
 export type Props = {
   to: string;
+  className?: string;
+  rest?: object;
 };
 
-const ReturnBack = ({ to }: Props) => {
+const ReturnBack = ({ to, className, ...rest }: Props) => {
   return (
-    <S.Return href={to}>
+    <S.Return href={to} {...rest} className={className}>
       <S.StyledArrow />
       Вернуться назад
     </S.Return>

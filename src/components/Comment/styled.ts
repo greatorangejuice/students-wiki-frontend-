@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 
+import { ReactComponent as Like } from 'assets/images/like.svg';
+
 export const CommentWrapper = styled.div``;
 
 export const CommentHeader = styled.div`
@@ -44,13 +46,21 @@ export const CommentText = styled.p`
 
 export const CommentFooter = styled.div`
   margin-top: 25px;
-  display: flex;
-  width: 250px;
-  justify-content: space-between;
 `;
 
 export const ReplyToComment = styled.button`
+  display: inline-block;
   color: #5474af;
 `;
 
-export const CommentLikes = styled.div``;
+export const SvgLike = styled(Like)`
+  vertical-align: middle;
+  margin: 0 5px 0 25px;
+`;
+
+export const CommentLikes = styled.div`
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  display: inline-block;
+  color: #a6a6d2;
+`;

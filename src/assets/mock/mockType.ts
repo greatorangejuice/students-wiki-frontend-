@@ -35,4 +35,13 @@ export type CommentsListType = {
   date: string;
   text: string;
   likes: number;
+  replies?: ReplyOnComment[];
+};
+
+export type ReplyOnComment = {
+  id: number;
+  writer: string;
+  date: string;
+  text: string;
+  likes: number;
 };
