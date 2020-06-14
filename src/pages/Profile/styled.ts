@@ -38,8 +38,10 @@ export const UserImg = styled.img`
   width: 200px;
   height: 200px;
   position: absolute;
-  top: -22%;
-  left: 43%;
+  top: 0%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
 `;
 
 export const UserName = styled.p`
