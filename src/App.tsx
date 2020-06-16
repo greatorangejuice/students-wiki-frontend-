@@ -11,6 +11,7 @@ import Subjects from 'pages/Subjects';
 import Teachers from 'pages/Teachers';
 import Teacher from 'pages/Teacher';
 import Profile from 'pages/Profile';
+import MyProfile from 'pages/MyProfile';
 import AuthRoute from 'routes/AuthRoute';
 import PublicRoute from 'routes/PublicRoute';
 import Header from 'components/Header';
@@ -30,6 +31,7 @@ function App() {
         <PublicRoute exact path="/subjects" Component={Subjects} />
         <PublicRoute exact path="/feedback" Component={Feedback} />
         <PublicRoute exact path="/profile" Component={Profile} />
+        <PublicRoute exact path="/my-profile" Component={MyProfile} />
       </Switch>
     </Router>
   );
