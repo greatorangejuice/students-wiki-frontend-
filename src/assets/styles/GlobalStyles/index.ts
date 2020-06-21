@@ -20,6 +20,7 @@ h1 {
     font-size: 72px;
     line-height: 86px;
 }
+
 h2 {
     font-family: 'Marmelad', sans-serif;
     font-weight: normal;
@@ -74,6 +75,13 @@ input[type="email"] {
     &:focus {
         outline: none;
     }
+}
+
+textarea {
+    display:block;
+    border:none;
+    box-shadow:none;
+    resize:none;
 }
 `;
 
