@@ -8,13 +8,13 @@ const SubjectsList = () => {
   return (
     <S.SubjectListWrapper>
       <S.SubjectList>
-        {MockSubjectsList.map((subject) => (
-          <S.SubjectListItem key={subject.id}>
-            <S.TeacherListItemLink href={subject.link}>
-              {subject.departmentName}
+        {MockSubjectsList.map(({ id, link, departmentName, subjectName }) => (
+          <S.SubjectListItem key={id}>
+            <S.TeacherListItemLink href={link}>
+              {departmentName}
             </S.TeacherListItemLink>
             <S.TeacherListItemDescription>
-              {subject.subjectName}
+              {subjectName}
             </S.TeacherListItemDescription>
           </S.SubjectListItem>
         ))}
