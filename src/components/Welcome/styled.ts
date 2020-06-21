@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-type props = {
+type Props = {
   active?: string;
 };
 
@@ -22,9 +22,8 @@ export const BreadCrumbsItem = styled.li`
   font-family: 'Marmelad', Arial, sans-serif;
   margin-right: 36px;
   position: relative;
-  color: ${({ active }: props) => (active ? '#FFEE54' : '#E2E2E2')};
-  opacity: ${({ active }: props) => (active ? '1' : 0.7)};
-
+  color: ${({ active }: Props) => (active ? '#FFEE54' : '#E2E2E2')};
+  opacity: ${({ active }: Props) => (active ? '1' : 0.7)};
   &::before {
     content: '';
     position: absolute;

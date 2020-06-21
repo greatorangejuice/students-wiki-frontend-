@@ -25,6 +25,25 @@ export type PageTeachersListType = {
   name: string;
   department: string;
   comments: number;
+  discipline?: string[];
+  rating?: number;
+};
+
+export type CommentsListType = {
+  id: number;
+  writer: string;
+  date: string;
+  text: string;
+  likes: number;
+  replies?: ReplyOnComment[];
+};
+
+export type ReplyOnComment = {
+  id: number;
+  writer: string;
+  date: string;
+  text: string;
+  likes: number;
 };
 
 export type PageSubjectsListType = {
