@@ -10,7 +10,7 @@ export type Props = {
 
 const ReturnBack = ({ to, className, ...rest }: Props) => {
   return (
-    <S.Return href={to} {...rest} className={className}>
+    <S.Return to={to} {...rest} className={className}>
       <S.StyledArrow />
       Вернуться назад
     </S.Return>
