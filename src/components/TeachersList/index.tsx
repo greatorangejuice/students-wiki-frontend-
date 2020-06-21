@@ -3,7 +3,7 @@ import React from 'react';
 import UserPic from 'assets/images/userpic.png';
 import { ReactComponent as Comments } from 'assets/images/comment.svg';
 
-import { teachersList } from 'assets/mock';
+import { MockTeachersList } from 'assets/mock';
 
 import * as S from './styled';
 
@@ -11,7 +11,7 @@ const TeachersList = () => {
   return (
     <S.TeacherListWrapper>
       <S.TeacherList>
-        {teachersList.map((teacher) => (
+        {MockTeachersList.map((teacher) => (
           <S.TeacherListItem key={teacher.id}>
             <S.TeacherListItemAvatar src={UserPic} />
             <S.TeacherListItemContent>

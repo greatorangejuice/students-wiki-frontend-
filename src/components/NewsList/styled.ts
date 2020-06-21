@@ -65,6 +65,7 @@ export const ReadMore = styled(Button)`
   :hover {
     background-color: #415b86;
   }
+
   :active {
     background-color: #314365;
   }
@@ -76,6 +77,7 @@ export const Published = styled.div`
   font-size: 16px;
   text-align: end;
 `;
+
 export const NewsTitle = styled.div`
   font-family: 'Marmelad', 'Roboto', sans-serif;
   font-size: 36px;

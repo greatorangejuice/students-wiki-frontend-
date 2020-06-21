@@ -1,6 +1,6 @@
-import { TeachersListType } from './mockType';
+import { PageTeachersListType } from './mockType';
 
-const TeacherList: TeachersListType[] = [
+const TeacherList: PageTeachersListType[] = [
   {
     id: 1,
     name: 'Иванов Василий Васильевич',

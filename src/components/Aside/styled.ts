@@ -19,6 +19,7 @@ export const LinksWrapperScroll = styled.div`
   height: 400px;
   overflow-y: auto;
   margin-bottom: 35px;
+
   ::-webkit-scrollbar {
     width: 2px;
   }
@@ -31,12 +32,15 @@ export const LinksWrapperScroll = styled.div`
     background: #5474af;
   }
 `;
+
 export const LinksWrapper = styled.ul`
   height: 100%;
 `;
+
 export const LinksItem = styled.li`
   margin-bottom: 20px;
 `;
+
 export const Link = styled.a`
   font-family: 'Roboto', Arial, sans-serif;
   font-weight: normal;

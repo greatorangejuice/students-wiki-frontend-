@@ -33,6 +33,7 @@ export const OAuthWrapper = styled.ul`
 
 export const OAuth = styled.li`
   margin-right: 30px;
+
   a {
     position: relative;
     display: flex;
@@ -42,9 +43,11 @@ export const OAuth = styled.li`
     position: relative;
     align-items: center;
     justify-content: center;
+
     img {
       position: relative;
     }
+
     &::before {
       content: '';
       width: 35px;
@@ -56,6 +59,7 @@ export const OAuth = styled.li`
       background: white;
     }
   }
+
   &:last-child {
     margin-right: 0;
   }
@@ -90,6 +94,7 @@ export const InputBottomHelper = styled.span`
 
 export const Input = styled.input`
   padding: 15px 7px;
+
   &::placeholder {
     color: #bdbdbd;
   }

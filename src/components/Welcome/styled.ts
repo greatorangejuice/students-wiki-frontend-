@@ -34,8 +34,10 @@ export const BreadCrumbsItem = styled.li`
     top: 50%;
     right: -18px;
   }
+
   &:last-child {
     margin-right: 0;
+
     &::before {
       content: none;
     }

@@ -6,7 +6,11 @@ import { ReactComponent as Arrow } from 'assets/images/arrow.svg';
 
 import * as S from './styled';
 
-const SortBy = () => {
+interface ISortBy {
+  value: string;
+}
+
+const SortBy: React.FC<ISortBy> = ({ value }) => {
   return (
     <S.SortWrapper>
       <S.Sort>
@@ -15,7 +19,7 @@ const SortBy = () => {
           Алфавиту <Arrow />
         </span>
       </S.Sort>
-      <AddButton value="добавить преподавателя" />
+      <AddButton value={value} />
     </S.SortWrapper>
   );
 };

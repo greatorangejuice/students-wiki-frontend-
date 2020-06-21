@@ -15,11 +15,19 @@ export const InputWrapper = styled.div`
   align-items: center;
   justify-content: space-between;
 `;
+
 export const Input = styled.input`
   background: inherit;
   height: 50px;
   width: 95%;
+
   &::placeholder {
     color: #bdbdbd;
   }
+`;
+
+export const CategorySearchContainer = styled.div`
+  padding: 130px 0 100px;
+  display: flex;
+  flex-direction: column;
 `;

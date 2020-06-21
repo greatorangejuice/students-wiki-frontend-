@@ -1,6 +1,6 @@
-import { PropsType } from './mockType';
+import { AsideSubjectListType } from './mockType';
 
-export const props: PropsType = {
+export const props: AsideSubjectListType = {
   value: 'Предметы',
   linkList: [
     {
