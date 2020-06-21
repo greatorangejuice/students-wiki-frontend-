@@ -13,7 +13,6 @@ export const Container = styled.div`
 export const Title = styled.h3`
   color: #fff;
   font-family: 'Marmelad', sans-serif;
-  font-size: 16px;
   line-height: 25px;
 `;
 
@@ -21,7 +20,6 @@ export const Label = styled.label`
   display: inline-block;
   color: #fff;
   font-family: 'Roboto', sans-serif;
-  font-size: 16px;
   line-height: 19px;
   margin-top: 50px;
 `;
@@ -29,7 +27,6 @@ export const Label = styled.label`
 export const Textarea = styled.textarea`
   display: block;
   font-family: 'Roboto', sans-serif;
-  font-size: 16px;
   border: none;
   padding: 25px 17px;
   margin-top: 10px;
