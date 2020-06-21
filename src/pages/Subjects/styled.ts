@@ -18,3 +18,7 @@ export const Aside = styled.aside`
   display: flex;
   flex-direction: column;
 `;
+
+export const Heading = styled.h2`
+  margin-bottom: 50px;
+`;

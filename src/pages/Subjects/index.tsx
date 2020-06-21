@@ -28,7 +28,7 @@ const Subjects = () => {
         </CategorySearchContainer>
         <S.Container className="container">
           <S.Article>
-            <h2>Факультет компьютерных систем и сетей</h2>
+            <S.Heading>Факультет компьютерных систем и сетей</S.Heading>
             <SubjectsList />
             <AddButton value="Показать больше" />
           </S.Article>
