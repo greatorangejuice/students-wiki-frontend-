@@ -7,7 +7,7 @@ import SubjectsList from 'components/SubjectsList';
 import AddButton from 'components/AddButton';
 import Aside from 'components/Aside';
 
-import { TeacherListType, SubjectListType } from 'assets/mock';
+import { MockAsideTeacherList, MockAsideSubjectList } from 'assets/mock';
 
 import { CategorySearchContainer } from 'components/CategorySearch/styled';
 import * as S from './styled';
@@ -34,14 +34,14 @@ const Subjects = () => {
           </S.Article>
           <S.Aside>
             <Aside
-              value={SubjectListType.value}
-              linkList={SubjectListType.linkList}
+              value={MockAsideSubjectList.value}
+              linkList={MockAsideSubjectList.linkList}
               add="добавить предмет"
             />
 
             <Aside
-              value={TeacherListType.value}
-              linkList={TeacherListType.linkList}
+              value={MockAsideTeacherList.value}
+              linkList={MockAsideTeacherList.linkList}
               add="добавить преподавателя"
             />
           </S.Aside>

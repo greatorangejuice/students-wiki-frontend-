@@ -1,6 +1,6 @@
-import { TeachersListType } from './mockType';
+import { PageTeachersListType } from './mockType';
 
-export const teacher: TeachersListType = {
+export const teacher: PageTeachersListType = {
   id: 1,
   comments: 3,
   name: 'Иванов Василий Васильевич',
