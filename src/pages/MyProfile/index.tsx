@@ -16,7 +16,6 @@ const breadCrumbs = [
 ];
 
 const MyProfile = () => {
-
   return (
     <>
       <Welcome breadCrumbs={breadCrumbs} />
@@ -25,20 +24,13 @@ const MyProfile = () => {
           <S.StyledReturnBack to="/" />
           <S.Profile>
             <S.Sidebar>
-              <S.ProfileEditing
-                to="/my-profile/edit-profile"
-              >
+              <S.ProfileEditing to="/my-profile/edit-profile">
                 Редактирование профиля
               </S.ProfileEditing>
-              <S.ChangeAccount
-                
-                to="/my-profile/edit-account"
-              >
+              <S.ChangeAccount to="/my-profile/edit-account">
                 Изменить учётную запись
               </S.ChangeAccount>
-              <S.SocialNetworks
-                to="/my-profile/social"
-              >
+              <S.SocialNetworks to="/my-profile/social">
                 Социальные сети
               </S.SocialNetworks>
             </S.Sidebar>
