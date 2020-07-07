@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const SortWrapper = styled.div`
-  font-family: 'Roboto', sans-serif;
   display: flex;
   align-items: center;
   justify-content: space-between;

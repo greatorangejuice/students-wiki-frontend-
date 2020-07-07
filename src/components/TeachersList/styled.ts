@@ -36,7 +36,6 @@ export const TeacherListItemHeading = styled.h4`
 
 export const TeacherListItemDescription = styled.p`
   margin-bottom: 20px;
-  font-family: 'Roboto', sans-serif;
   font-size: 14px;
   line-height: 16px;
   max-width: 144px;
@@ -44,7 +43,6 @@ export const TeacherListItemDescription = styled.p`
 `;
 
 export const TeacherListItemComments = styled.div`
-  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;

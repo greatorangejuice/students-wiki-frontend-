@@ -62,7 +62,6 @@ export const SvgUnicorn = styled(Unicorn)`
 `;
 
 export const RatingNumber = styled.span`
-  font-family: 'Roboto', sans-serif;
   font-size: 22px;
   color: #5474af;
 `;
@@ -83,14 +82,12 @@ export const TeacherName = styled.h2`
 `;
 
 export const TeacherDepartment = styled.p`
-  font-family: 'Roboto', sans-serif;
   font-size: 18px;
   color: #5474af;
   margin-top: 15px;
 `;
 
 export const TeacherDisciplines = styled.p`
-  font-family: 'Roboto', sans-serif;
   font-size: 18px;
   color: #5474af;
   margin-top: 40px;
@@ -99,7 +96,6 @@ export const TeacherDisciplines = styled.p`
 export const DisciplineUl = styled.ul``;
 
 export const DisciplineLi = styled.li`
-  font-family: 'Roboto', sans-serif;
   font-size: 18px;
   color: #282828;
   margin-top: 10px;

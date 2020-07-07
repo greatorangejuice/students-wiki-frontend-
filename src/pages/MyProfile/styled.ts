@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 
+import { NavLink } from 'react-router-dom';
+
 import Button from 'components/Button';
 import ReturnBack from 'components/ReturnBack';
 
@@ -37,7 +39,6 @@ export const Profile = styled.div`
 `;
 
 export const Sidebar = styled.div`
-  font-family: 'Roboto', sans-serif;
   font-size: 18px;
 
   > :not(:last-child) {
@@ -45,25 +46,28 @@ export const Sidebar = styled.div`
   }
 `;
 
-export const ProfileEditing = styled.div`
+export const ProfileEditing = styled(NavLink)`
   color: ${({ active }: Props) => (active ? '#5474af' : '#c9cae4')};
-
+  display: block;
+  
   :hover {
     cursor: pointer;
   }
 `;
 
-export const ChangeAccount = styled.div<Props>`
+export const ChangeAccount = styled(NavLink)<Props>`
   color: ${({ active }: Props) => (active ? '#5474af' : '#c9cae4')};
-
+  display: block;
+  
   :hover {
     cursor: pointer;
   }
 `;
 
-export const SocialNetworks = styled.div`
+export const SocialNetworks = styled(NavLink)`
   color: ${({ active }: Props) => (active ? '#5474af' : '#c9cae4')};
-
+  display: block;
+  
   :hover {
     cursor: pointer;
   }
@@ -117,16 +121,17 @@ export const UserImage = styled.img`
 export const EditImg = styled.div`
   display: flex;
   justify-content: space-between;
-  color: #c9cae4;
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
   margin-top: 25px;
   width: 100%;
 `;
 
-export const ChangeImg = styled.div``;
+export const ChangeImg = styled.button`
+  color: #c9cae4;
+`;
 
-export const DeleteImg = styled.div``;
+export const DeleteImg = styled.button`
+  color: #c9cae4;
+`;
 
 export const FieldLabel = styled.p`
   font-family: 'Marmelad', sans-serif;
@@ -139,7 +144,7 @@ export const InputField = styled.input<Props>`
   display: block;
   background-color: #f6f9ff;
   border: none;
-  color: #bdbdbd;
+  color: #716e6e;
   padding: 15px 22px;
   margin-top: 20px;
   width: 100%;
@@ -159,12 +164,16 @@ export const TextareaField = styled.textarea.attrs(() => ({
   display: block;
   background-color: #f6f9ff;
   border: none;
-  color: #bdbdbd;
+  color: #716e6e;
   padding: 15px 22px;
   margin-top: 20px;
   width: 100%;
   height: 150px;
   resize: none;
+  
+  ::placeholder {
+    color: #bdbdbd;
+  }
 `;
 
 export const StyledButton = styled(Button)`

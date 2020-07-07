@@ -54,21 +54,18 @@ export const UserName = styled.p`
 `;
 
 export const UserUniversity = styled.p`
-  font-family: 'Roboto', sans-serif;
   font-size: 18px;
   color: #5474af;
   margin-top: 10px;
 `;
 
 export const UserFaculty = styled.p`
-  font-family: 'Roboto', sans-serif;
   font-size: 18px;
   color: #5474af;
   margin-top: 10px;
 `;
 
 export const UserDescription = styled.p`
-  font-family: 'Roboto', sans-serif;
   font-size: 18px;
   color: #282828;
   margin: 0 auto;

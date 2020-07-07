@@ -8,6 +8,7 @@ export const Header = styled.header`
   border-bottom: 2px solid grey;
   max-height: 110px;
   min-height: 110px;
+  
   a {
     color: white;
     &.active {
@@ -30,7 +31,6 @@ export const Title = styled.div`
 
 export const SpanBsuir = styled.span`
   display: block;
-  font-size: 16px;
   opacity: 0.7;
 `;
 

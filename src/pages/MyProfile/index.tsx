@@ -1,4 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
+
+import { Switch, Route } from 'react-router-dom';
 
 import Welcome from 'components/Welcome';
 
@@ -13,14 +15,7 @@ const breadCrumbs = [
   { id: 2, value: 'Профиль', active: 'active' },
 ];
 
-type State = {
-  activePage: string;
-};
-
 const MyProfile = () => {
-  const [state, setState] = useState<State>({
-    activePage: 'editProfile',
-  });
 
   return (
     <>
@@ -31,37 +26,36 @@ const MyProfile = () => {
           <S.Profile>
             <S.Sidebar>
               <S.ProfileEditing
-                active={state.activePage === 'editProfile'}
-                onClick={() => {
-                  setState({ ...state, activePage: 'editProfile' });
-                }}
+                to="/my-profile/edit-profile"
               >
                 Редактирование профиля
               </S.ProfileEditing>
               <S.ChangeAccount
-                active={state.activePage === 'editAccount'}
-                onClick={() => {
-                  setState({ ...state, activePage: 'editAccount' });
-                }}
+                to="/my-profile/edit-account"
               >
                 Изменить учётную запись
               </S.ChangeAccount>
               <S.SocialNetworks
-                active={state.activePage === 'socialNetworks'}
-                onClick={() => {
-                  setState({ ...state, activePage: 'socialNetworks' });
-                }}
+                to="/my-profile/social"
               >
                 Социальные сети
               </S.SocialNetworks>
             </S.Sidebar>
-            {state.activePage === 'editProfile' ? (
-              <ProfilePage />
-            ) : state.activePage === 'editAccount' ? (
-              <AccountPage />
-            ) : (
-              <SocialNetworksPage />
-            )}
+
+            <Switch>
+              <Route path="/my-profile/edit-profile">
+                <ProfilePage />
+              </Route>
+              <Route path="/my-profile/edit-account">
+                <AccountPage />
+              </Route>
+              <Route path="/my-profile/social">
+                <SocialNetworksPage />
+              </Route>
+              <Route>
+                <ProfilePage />
+              </Route>
+            </Switch>
           </S.Profile>
         </S.Container>
       </S.MyProfileSection>

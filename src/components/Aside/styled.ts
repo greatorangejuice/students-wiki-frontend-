@@ -38,9 +38,7 @@ export const LinksItem = styled.li`
   margin-bottom: 20px;
 `;
 export const Link = styled.a`
-  font-family: 'Roboto', Arial, sans-serif;
   font-weight: normal;
-  font-size: 16px;
   max-width: 300px;
   display: block;
   line-height: 19px;

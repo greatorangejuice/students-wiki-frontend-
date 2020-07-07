@@ -31,7 +31,7 @@ function App() {
         <PublicRoute exact path="/subjects" Component={Subjects} />
         <PublicRoute exact path="/feedback" Component={Feedback} />
         <PublicRoute exact path="/profile" Component={Profile} />
-        <PublicRoute exact path="/my-profile" Component={MyProfile} />
+        <PublicRoute path="/my-profile" Component={MyProfile} />
       </Switch>
     </Router>
   );
