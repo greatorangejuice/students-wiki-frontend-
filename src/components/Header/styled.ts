@@ -8,9 +8,10 @@ export const Header = styled.header`
   border-bottom: 2px solid grey;
   max-height: 110px;
   min-height: 110px;
-  
+
   a {
     color: white;
+
     &.active {
       color: #ffee54;
     }

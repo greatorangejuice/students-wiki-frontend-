@@ -17,7 +17,9 @@ const Header = () => {
         <S.Navbar>
           <S.Ul>
             <S.Li>
-              <NavLink to="/">Лента</NavLink>
+              <NavLink exact to="/">
+                Лента
+              </NavLink>
             </S.Li>
             <S.Li>
               <NavLink to="/teachers">Преподаватели</NavLink>

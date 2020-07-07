@@ -3,7 +3,11 @@ import React from 'react';
 import Aside from 'components/Aside';
 
 import { teacher } from 'assets/mock/Teacher';
-import { commentsList, TeacherList, SubjectList } from 'assets/mock';
+import {
+  MockCommentsList,
+  MockAsideTeacherList,
+  MockAsideSubjectList,
+} from 'assets/mock';
 
 import userpic from 'assets/images/userpic.png';
 
@@ -55,20 +59,20 @@ const Teacher = () => {
                 </S.CommentsTitle>
                 <S.StyledAddButton value="Добавить комментарий" />
               </S.CommentsHeader>
-              <S.StyledCommentList comments={commentsList} />
+              <S.StyledCommentList comments={MockCommentsList} />
             </S.CommentsContainer>
             <S.StyledAddButton value="Показать больше" />
           </S.Article>
           <S.Aside>
             <Aside
-              value={SubjectList.value}
-              linkList={SubjectList.linkList}
+              value={MockAsideSubjectList.value}
+              linkList={MockAsideSubjectList.linkList}
               add="добавить предмет"
             />
 
             <Aside
-              value={TeacherList.value}
-              linkList={TeacherList.linkList}
+              value={MockAsideTeacherList.value}
+              linkList={MockAsideTeacherList.linkList}
               add="добавить преподавателя"
             />
           </S.Aside>

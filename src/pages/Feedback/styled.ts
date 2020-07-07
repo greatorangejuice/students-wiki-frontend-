@@ -19,12 +19,14 @@ export const Title = styled.h3`
 export const Label = styled.label`
   display: inline-block;
   color: #fff;
+  font-family: 'Roboto', sans-serif;
   line-height: 19px;
   margin-top: 50px;
 `;
 
 export const Textarea = styled.textarea`
   display: block;
+  font-family: 'Roboto', sans-serif;
   border: none;
   padding: 25px 17px;
   margin-top: 10px;

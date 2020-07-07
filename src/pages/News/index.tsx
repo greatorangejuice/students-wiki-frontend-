@@ -5,7 +5,7 @@ import Aside from 'components/Aside';
 import AddButton from 'components/AddButton';
 import NewsList from 'components/NewsList';
 
-import { TeacherList, SubjectList } from 'assets/mock';
+import { MockAsideTeacherList, MockAsideSubjectList } from 'assets/mock';
 
 import * as S from './styled';
 
@@ -25,14 +25,14 @@ const News = () => {
           </S.Article>
           <S.Aside>
             <Aside
-              value={SubjectList.value}
-              linkList={SubjectList.linkList}
+              value={MockAsideSubjectList.value}
+              linkList={MockAsideSubjectList.linkList}
               add="добавить предмет"
             />
 
             <Aside
-              value={TeacherList.value}
-              linkList={TeacherList.linkList}
+              value={MockAsideTeacherList.value}
+              linkList={MockAsideTeacherList.linkList}
               add="добавить преподавателя"
             />
           </S.Aside>

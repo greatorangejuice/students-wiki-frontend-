@@ -14,6 +14,7 @@ export const TeacherList = styled.ul`
 export const TeacherListItem = styled.li`
   display: flex;
   margin-bottom: 80px;
+
   &:nth-child(odd) {
     margin-right: 150px;
   }
@@ -48,8 +49,8 @@ export const TeacherListItemComments = styled.div`
   font-size: 14px;
   align-items: center;
   display: flex;
-  /* line-height: 16px; */
   color: #a6a6d2;
+
   svg {
     margin-right: 3px;
   }

@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const TeachersSection = styled.section`
+export const HomeSection = styled.section`
   background: white;
 `;
 
@@ -14,11 +14,11 @@ export const Article = styled.article`
   max-width: 886px;
 `;
 
-export const Title = styled.h2`
-  margin-bottom: 50px;
-`;
-
 export const Aside = styled.aside`
   display: flex;
   flex-direction: column;
+`;
+
+export const Heading = styled.h2`
+  margin-bottom: 50px;
 `;

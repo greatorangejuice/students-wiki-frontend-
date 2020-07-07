@@ -1,12 +1,12 @@
-export type LinkItem = {
+export type LinkItemType = {
   id: number;
   link: string;
   value: string;
 };
 
-export type PropsType = {
+export type AsideSubjectListType = {
   value: string;
-  linkList: LinkItem[];
+  linkList: LinkItemType[];
   add?: string;
 };
 
@@ -20,7 +20,7 @@ export type NewsItem = {
   published?: string;
 };
 
-export type TeachersListType = {
+export type PageTeachersListType = {
   id: number;
   name: string;
   department: string;
@@ -44,4 +44,11 @@ export type ReplyOnComment = {
   date: string;
   text: string;
   likes: number;
+};
+
+export type PageSubjectsListType = {
+  id: number;
+  link: string;
+  departmentName: string;
+  subjectName: string;
 };

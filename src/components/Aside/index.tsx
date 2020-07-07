@@ -2,17 +2,17 @@ import React from 'react';
 
 import AddButton from 'components/AddButton';
 
-import { PropsType, LinkItem } from 'assets/mock';
+import { AsideSubjectListType } from 'assets/mock';
 
 import * as S from './styled';
 
-const Aside = ({ value, linkList, add }: PropsType) => {
+const Aside: React.FC<AsideSubjectListType> = ({ value, linkList, add }) => {
   return (
     <S.AsideItem>
       <S.Heading>{value}</S.Heading>
       <S.LinksWrapperScroll>
         <S.LinksWrapper>
-          {linkList.map((item: LinkItem) => (
+          {linkList.map((item) => (
             <S.LinksItem key={item.id}>
               <S.Link href={item.link}>{item.value}</S.Link>
             </S.LinksItem>
