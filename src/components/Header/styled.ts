@@ -32,7 +32,6 @@ export const Title = styled.div`
 
 export const SpanBsuir = styled.span`
   display: block;
-  font-size: 16px;
   opacity: 0.7;
 `;
 

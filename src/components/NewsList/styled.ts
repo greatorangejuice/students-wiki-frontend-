@@ -50,8 +50,6 @@ export const Favorites = styled.div`
 
 export const NewsText = styled.div`
   color: #282828;
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
   line-height: 25px;
 `;
 
@@ -73,8 +71,6 @@ export const ReadMore = styled(Button)`
 
 export const Published = styled.div`
   color: #c9cae4;
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
   text-align: end;
 `;
 

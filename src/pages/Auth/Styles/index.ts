@@ -77,14 +77,12 @@ export const InputWrapper = styled.div`
 `;
 
 export const InputTopHelper = styled.span`
-  font-family: 'Roboto';
   font-weight: 500;
   line-height: 19px;
   color: #fff;
   margin-bottom: 10px;
 `;
 export const InputBottomHelper = styled.span`
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: normal;
   margin-left: auto;
@@ -107,11 +105,9 @@ export const SubmitAndRedirect = styled.div`
 `;
 
 export const Submit = styled.button`
-  font-family: 'Roboto', Arial, sans-serif;
 `;
 
 export const Link = styled(NavLink)`
-  font-family: 'Roboto', Arial, sans-serif;
   color: rgba(255, 255, 255, 0.62);
   text-decoration: none;
 `;

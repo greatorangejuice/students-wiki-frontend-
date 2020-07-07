@@ -24,21 +24,16 @@ export const CommentInfo = styled.div`
 `;
 
 export const CommentatorName = styled.p`
-  font-family: 'Roboto', sans-serif;
   font-size: 18px;
   color: #5474af;
 `;
 
 export const CommentDate = styled.p`
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
   color: #c9cae4;
   margin-top: 5px;
 `;
 
 export const CommentText = styled.p`
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
   line-height: 25px;
   color: #282828;
   margin-top: 25px;
@@ -59,7 +54,6 @@ export const SvgLike = styled(Like)`
 `;
 
 export const CommentLikes = styled.div`
-  font-family: 'Roboto', sans-serif;
   font-size: 14px;
   display: inline-block;
   color: #a6a6d2;

@@ -6,7 +6,6 @@ import { ReactComponent as Arrow } from 'assets/images/arrow.svg';
 
 export const Return = styled(Link)`
   display: block;
-  font-family: 'Roboto', sans-serif;
   font-size: 18px;
   color: #c9cae4;
   position: relative;
