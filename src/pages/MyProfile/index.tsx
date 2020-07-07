@@ -31,6 +31,7 @@ const MyProfile = () => {
                 Редактирование профиля
               </S.ProfileEditing>
               <S.ChangeAccount
+                
                 to="/my-profile/edit-account"
               >
                 Изменить учётную запись

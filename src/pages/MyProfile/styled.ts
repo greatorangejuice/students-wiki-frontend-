@@ -47,29 +47,41 @@ export const Sidebar = styled.div`
 `;
 
 export const ProfileEditing = styled(NavLink)`
-  color: ${({ active }: Props) => (active ? '#5474af' : '#c9cae4')};
+  color: #c9cae4;
   display: block;
   
   :hover {
     cursor: pointer;
   }
+  
+  &.active {
+    color: #5474af
+  }
 `;
 
-export const ChangeAccount = styled(NavLink)<Props>`
-  color: ${({ active }: Props) => (active ? '#5474af' : '#c9cae4')};
+export const ChangeAccount = styled(NavLink)`
+  color: #c9cae4;
   display: block;
   
   :hover {
     cursor: pointer;
+  }
+  
+  &.active {
+    color: #5474af;
   }
 `;
 
 export const SocialNetworks = styled(NavLink)`
-  color: ${({ active }: Props) => (active ? '#5474af' : '#c9cae4')};
+    color: #c9cae4;
   display: block;
   
   :hover {
     cursor: pointer;
+  }
+  
+  &.active {
+    color: #5474af;
   }
 `;
 
